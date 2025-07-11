@@ -1,0 +1,83 @@
+.study-mode-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f0f4f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.setup, .active-session, .summary {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+select, input {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #4b90ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a74cc;
+}
+
+.questions ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.summary {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f8fb;
+  border-radius: 10px;
+  max-width: 700px;
+  word-wrap: break-word;
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap; /* Preserves line breaks */
+}
+
+.download-btn-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.download-btn-wrapper button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4b90ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.download-btn-wrapper button:hover {
+  background-color: #3a74cc;
+}
+
+.summary-container {
+  display: block;
+}
